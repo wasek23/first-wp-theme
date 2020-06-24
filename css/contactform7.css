@@ -1,0 +1,105 @@
+.wpcf7-form{
+	width: 90%;
+	margin: 0 auto;
+}
+.wpcf7-form p{
+	margin-bottom: 30px;
+}
+.wpcf7-form p label{
+	font-weight: bold;
+}
+.wpcf7-form p label input, .wpcf7-form p label select, .wpcf7-form p label .your-message textarea{
+	width: 97%;
+	height: 25px;
+	font-size: 15px;
+    background-color: #fff;
+    padding: 10px;
+	border: none;
+    border-radius: 5px;
+	color: #626262;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.wpcf7-form p label .your-name input{
+	
+}
+.wpcf7-form p label .your-email input{
+	
+}
+.wpcf7-form p label .date-450 input{
+	
+}
+.wpcf7-form p label .number-362 input{
+	
+}
+.wpcf7-form p .radio-954 .wpcf7-list-item{
+	display: block;
+	margin-top: 10px;
+}
+.wpcf7-form p .checkbox-173 .wpcf7-list-item{
+	display: block;
+	margin-top: 10px;
+}
+.wpcf7-form p label .file-140 input{
+	
+}
+.wpcf7-form p label .menu-928 select.wpcf7-select{
+	width: 99%;	
+	height: 45px;
+}
+.wpcf7-form p label .url-495 input{
+	
+}
+.wpcf7-form p label .your-subject input{
+	
+}
+.wpcf7-form p label .your-message textarea{
+	height: 150px;
+}
+.wpcf7-form p .wpcf7-submit{
+	font-size: 20px;
+	color: #626262;
+	background-color: #B2F179;
+	padding: 10px 25px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	float: right;
+	-moz-box-shadow: 0 0 10px 5px #7cca36 inset;
+	-webkit-box-shadow: 0 0 10px 5px #7cca36 inset;
+	box-shadow: 0 0 10px 5px #7cca36 inset;
+}
+.wpcf7-form p .wpcf7-submit:active{
+	-moz-box-shadow: 0 0 10px 5px #7cca36;
+	-webkit-box-shadow: 0 0 10px 5px #7cca36;
+	box-shadow: 0 0 10px 5px #7cca36;
+}
+
+/* Responsive Contact Form 7 */
+@media only screen and (max-width: 768px){
+	.wpcf7-form{
+		width: 94%;
+	}
+	.wpcf7-form p{
+		display: block;
+	}
+	.wpcf7-form p label input, .wpcf7-form p label select, .wpcf7-form p label .your-message textarea{
+		width: 95%;
+	}
+	.wpcf7-form p label .menu-928 select.wpcf7-select{
+		width: 98%;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.wpcf7-form{
+		width: 98%;
+	}
+	.wpcf7-form p label input, .wpcf7-form p label select, .wpcf7-form p label .your-message textarea{
+		width: 94%;
+	}
+	.wpcf7-form p label .menu-928 select.wpcf7-select{
+		width: 98%;
+	}
+}

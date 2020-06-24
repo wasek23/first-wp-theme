@@ -1,0 +1,444 @@
+/*
+	Theme Name: First Responsive Theme
+	Author: Md. Wasek Bellah
+	Description: This is my first Wordpress Theme.
+	Version: 1.1
+*/
+*{margin: 0; padding: 0;}
+body{
+	font-family: arial, sans-serif;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.full_screen{
+	width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Arial Rounded MT Bold;
+	color: #4d7529;
+}
+p{
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+}
+img{
+	width: auto;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:focus{
+	background: #c9dcff;
+}
+a:visited{
+	color: #1155D4;
+}
+.clearfix{
+	display: block;
+	clear: both;
+	content: "";
+}
+/*Start Header*/
+#header{
+	padding: 10px;
+	border-left: 1px solid #FFA500;
+	border-right: 1px solid #FFA500;
+}
+#header h2{
+	margin-left: 5px;
+}
+#header h2 a{
+	color: #4d7529;
+}
+#header p{
+	margin-left: 5px;
+}
+.header_bg{
+	background-color: #96CDD6;
+	border-bottom: 2px solid #FFA500;
+}
+/*Finish Header*/
+
+/*Start Menu*/
+#menu{
+	border-left: 1px solid #FFA500;
+	border-right: 1px solid #FFA500;
+}
+#menu ul{
+	list-style-type: none;
+	min-height: 38px;
+	z-index: 99999999;
+}
+#menu ul li{
+	float: left;
+	border-left: 1px solid #2020D2;
+	border-right: 1px solid #0B0B56;
+	position: relative;
+}
+#menu ul li:first-child{
+	border-left: none;
+}
+#menu ul li:last-child{
+	border-right: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	display: block;
+}
+#menu ul li a:hover{
+	color: #00B8EF;
+	background: #008000;
+}
+#menu ul li.current-menu-item a{
+	color: #00B8EF;
+	background: #008000;
+}
+#menu ul li:hover ul{
+	left: 0;
+}
+#menu ul li ul{
+	list-style-type: none;
+	padding: 0;
+	width: 200px;
+	background: #232383;
+	position: absolute;
+	left: -99999px;
+}
+#menu ul li ul li{
+	float: none;
+	border-top: 1px solid #2020D2;
+	border-bottom: 1px solid #0B0B56;
+	border-left: none;
+	border-right: none;
+	position: relative;
+}
+#menu ul li ul li:first-child{
+	border-top: none;
+}
+#menu ul li ul li:last-child{
+	border-bottom: none;
+}
+#menu ul li ul li:hover ul{
+	top: 0;
+	left: 200px;
+}
+#menu ul li ul li ul{
+	list-style-type: none;
+	padding: 0;
+	width: 200px;
+	background: #232383;
+	position: absolute;
+	top: -99999px;
+	left: 200px;
+}
+#menu ul li ul li ul li{
+	float: none;
+	border-top: 1px solid #2020D2;
+	border-bottom: 1px solid #0B0B56;
+}
+#menu ul li ul li:first-child{
+	border-top: none;
+}
+#menu ul li ul li:last-child{
+	border-bottom: none;
+}
+.nav_bg{
+	background: #232383;
+	border-bottom: 2px solid #FFA500;
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+}
+/*Finish Menu*/
+
+/*Start Slider*/
+.bnrLft{
+	border-left: 1px solid #FFA500;
+	border-right: 1px solid #FFA500;
+}
+.section_bg{
+	background-color: #000;
+	border-bottom: 2px solid #FFA500;
+}
+/*Finish Slider*/
+
+/*Start Full Content*/
+/*Start Content*/
+#article, #ins_article{
+	width: 725px;
+	float: left;
+	margin-right: 7px;
+	border-right: 0.5px solid #FFA500;
+}
+#article h1, h2, #ins_article h1, h2{
+	margin: 10px;
+}
+#article h1 a, #ins_article h1 a{
+	color: #4d7529;
+}
+#article .post_info, #ins_article .post_info{
+	border: 1px solid #FFA500;
+	padding: 10px;
+	margin: 10px 5px;
+}
+#article a, #ins_article a{
+	color: green;
+}
+#article p{
+	margin: 5px 5px 30px 5px;
+	text-align: justify;
+}
+#article .end_post, #ins_article .end_post{
+	border-bottom: 1px solid #FFA500;
+	margin-bottom: 50px;
+}
+#article .featured_img .wp-post-image{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 5px;
+	border: 1px solid #FFA500;
+	background: #ccc;
+	margin: 5px 10px 0px 10px;
+}
+#ins_article p{
+	margin: 5px 5px 30px 5px;
+	text-align: justify;
+}
+blockquote{
+	background-color: #96CDD6;
+	text-align: justify;
+	font-style: italic;
+	border-left: 2px solid #FFA500;
+	padding: 20px;
+	margin-left: 50px;
+}
+#ins_article blockquote p{
+	margin: 5px;
+}
+
+#ins_article .alignnone, .alignleft, .aligncenter, .alignright{
+	padding: 5px;
+	border: 1px solid #FFA500;
+	background: #ccc;
+	margin: 10px auto;
+	display: block;
+}
+
+#ins_article img{
+	height: auto;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	border: none;
+}
+#article .wp-caption-text, #ins_article .wp-caption-text{
+	color: blue;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px;
+}
+#article .about_img, #ins_article .about_img{
+	padding: 0;
+    border: none;
+    background: none;
+}
+
+/* Start Pagination */
+.pagination{
+	margin: 15px 30px;
+}
+.pagination .prev{
+	float: left;
+}
+.pagination .next{
+	float: right;
+}
+.pagination a{
+	font-size: 18px;
+}
+
+#pagination{
+	margin: 10px auto;
+	display: block;
+	text-align: center;
+}
+#pagination .page-numbers{
+	background: #B2F179;
+	color: #626262;
+	display: inline-block;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 0px -3px;
+}
+ 
+#pagination .page-numbers:hover{
+	background: #96CDD6;
+	color: #4D7529;
+	text-decoration: none;
+}
+ 
+#pagination .current {
+	background: #96CDD6;
+	color: #4D7529;
+}
+/* Finish Pagination */
+
+#ins_article.error_page{
+	width: 100%;
+	border-right: none;
+	text-align: center;
+}
+#ins_article.error_page h1{
+	font-size: 80px;
+	color: #009900;
+	margin: 100px 0 50px 0;
+}
+#ins_article.error_page h3{
+	font-size: 30px;
+	color: green;
+	margin: 50px 0;
+}
+#ins_article.error_page a{
+	background-color: #B2F179;
+	border-radius: 3px;
+	font-size: 18px;
+    font-style: italic;
+	color: #626262;
+	-moz-box-shadow: 0 0 10px 5px #7cca36 inset;
+	-webkit-box-shadow: 0 0 10px 5px #7cca36 inset;
+	box-shadow: 0 0 10px 5px #7cca36 inset;
+	padding: 10px;
+	display: inline-block;
+	margin: 50px 0;
+}
+#ins_article.error_page a:active{
+	-moz-box-shadow: 0 0 10px 5px #7cca36;
+	-webkit-box-shadow: 0 0 10px 5px #7cca36;
+	box-shadow: 0 0 10px 5px #7cca36;
+}
+/*Finish Content*/
+/*Start Sidebar*/
+form.searchform{
+	position: relative;
+	margin: 20px 5px;
+}
+form.searchform label{
+	position: absolute;
+	left: -99999px;
+}
+form.searchform input{
+	border: none;
+}
+form.searchform input[type=text]{
+	font-size: 15px;
+	font-style: italic;
+	background-color: #fff;
+	padding: 10px;
+	width: 150px;
+	border-radius: 5px 0 0 5px;
+}
+form.searchform input[type=submit]{
+	position: absolute;
+	color: #5834c0;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 10px 20px;
+	border-radius: 0 5px 5px 0;
+	text-indent: -99999px;
+	
+	background: #b2f179 url(http://localhost/wordpress/wp-content/uploads/2018/11/search.png) no-repeat;
+	background-size: 35px;
+}
+#sidebar{
+	width: 225px;
+	float: left;
+	list-style-type: none;
+}
+#sidebar h2{
+	margin: 10px;
+}
+#sidebar ul{
+	list-style-type: none;
+	margin: 5px 20px;
+}
+#sidebar ul li{
+	padding: 5px;
+}
+#sidebar ul li a{
+	color: #000;
+}
+
+/*Finish Sidebar*/
+#content{
+	border-left: 1px solid #FFA500;
+	border-right: 1px solid #FFA500;
+	overflow: hidden;
+}
+.content_bg{
+	background-color: #D7F5FA;
+	border-bottom: 2px solid #FFA500;
+}
+/*Finish Full Content*/
+
+/*Start Footer*/
+/*Start Footer Content*/
+#f_content .col{
+	width: 300px;
+	float: left;
+	border-right: 0.5px solid #FFA500;
+	margin-right: 28.5px;
+	margin: 10px 0px;
+}
+#f_content .nomarg{
+	margin-right: 0;
+	border-right: none;
+}
+#f_content h2{
+	margin: 10px;
+}
+#f_content ul{
+	list-style-type: none;
+	margin: 5px 20px;
+}
+#f_content ul li{
+	padding: 5px;
+}
+#f_content ul li a{
+	color: #000;
+}
+#f_content p{
+	margin: 5px 20px;
+	padding: 5px;
+	color: #000;
+}
+#f_content{
+	border-left: 1px solid #FFA500;
+	border-right: 1px solid #FFA500;
+	overflow: hidden;
+}
+.f_content_bg{
+	background-color: #96CDD6;
+	border-bottom: 2px solid #FFA500;
+}
+/*Finish Footer Content*/
+/*Start Footer Copy*/
+#footer .f_copy{
+	
+}
+#footer .f_copy p{
+	text-align: center;
+	padding: 5px;
+}
+#footer .f_copy_bg{
+	background-color: #FFFF00;
+}
+/*Finish Footer Copy*/
+/*Finish Footer*/
