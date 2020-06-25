@@ -1,4 +1,4 @@
-# FIRST THEME
+# FIRST WORDPRESS THEME
 #### Simple Responsive First WordPress Theme.
 
 <br />
