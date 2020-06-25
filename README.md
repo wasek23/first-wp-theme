@@ -1,5 +1,5 @@
 # FIRST THEME
-#### This is my First WordPress Theme
+#### Simple Responsive First WordPress Theme.
 
 <br />
 
